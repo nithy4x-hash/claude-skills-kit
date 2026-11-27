@@ -40,6 +40,46 @@ See Section 9. Never hand over something you haven't opened at phone and desktop
 ### Step 5: Give choices the right way
 When there is a real choice (photos, colour themes, crops), build a **visual picker page** with numbered options and let them pick. Don't describe options in text.
 
+### If there is no existing brand (a new or concept brand)
+Define it before designing: name, a wordmark logo, 4–6 named colours drawn from the product's own world, and two fonts. Use a mood board (e.g. Pinterest) **only as reference**; never put other people's photos on the site. Generate original photos instead (Flow, see the video guides), and say clearly in the footer that the brand is a concept.
+
+---
+
+## 1b. Non-negotiables on EVERY website
+
+These apply to every site you build, on top of everything else in this file.
+
+1. **A personalised loader.** Every site opens with a short loader made from **that brand's own logo or wordmark**. Examples: the real logo assembled from its pieces, or a wordmark catching a gold shine. It then moves into its place in the header as the page appears. It plays once per visit, any tap, key or scroll skips it, `?intro` replays it, and it's off when the visitor prefers reduced motion. Never a generic spinner or progress bar.
+
+2. **Luxury smooth scroll.** Every site gets the smooth, weighted scroll that luxury sites have (Lenis, `lerp` about 0.09; anchor links glide to their section).
+   - It must **never trap** the page: wheel, trackpad, touch, keyboard (arrows, Page Up/Down, Space, Home, End) and the scrollbar all keep working.
+   - It's off with reduced motion, and it pauses while a drawer or lightbox is open.
+   - The only exception is click-through pitch decks, which get no scroll effects at all.
+
+3. **Interactive features: at least 2, aim for 4.** Every site needs real interactions that a visitor uses, not just animations they watch. Pick ones that fit the business, for example:
+   - a hero that reacts to the cursor or finger (e.g. light that follows you across gold jewellery)
+   - a working bag or wishlist drawer
+   - a builder that writes a pre-filled WhatsApp message
+   - a tabbed "how to wear it" or "choose your plan" switcher
+   - a calculator or finder (ring size, price, quantity)
+   - a review slider
+   - video testimonials that preview on hover and play in a lightbox
+   - a goal finder or quiz
+
+   Each must work with mouse, touch and keyboard.
+
+4. **Products are shown in screen-sized sets.** On any site that displays products, **at least half of them** (ideally all) appear in **screens that are exactly the height of the window** (100svh).
+   - Each screen holds a whole number of complete product cards, and no row is cut off and continued on the next screen. You choose how many per screen: typically **3 per screen on desktop, 2 on phone**.
+   - When scrolling stops near the top of a product screen, it **settles gently** onto that screen. It never fights the user and never traps them.
+   - On very short windows (e.g. a phone held sideways), fall back to normal flowing cards.
+
+5. **Every commercial website has a testimonial section.**
+   - **Real reviews only:** video testimonials from the client's Instagram (transcribed word for word) are best, then Google or written reviews with names and context.
+   - **Never invent reviews and present them as real.**
+   - For a fictional or concept brand, the section can be built with sample reviews, but it must say clearly on the page that they are samples.
+
+6. **No gradient colour over photos.** Never put a gradient, colour fade, scrim or colour wash over a background photo; it looks cheap. Photos stay clean and uncoloured. Text sits beside the photo, on solid colour, never on a gradient over it.
+
 ---
 
 ## 2. What they love
@@ -65,6 +105,7 @@ When there is a real choice (photos, colour themes, crops), build a **visual pic
 **Content and imagery:**
 - **Never use empty image placeholders** or "photo coming soon" panels. That reads as unfinished and unprofessional.
 - **Never put text over photos.**
+- **Never put a gradient or colour fade over a photo** (dark fades at the edges, colour washes, scrims). It makes the site look cheap.
 - **Never repeat the same photo** anywhere on a page. When new photos are picked, they replace the similar-looking old ones.
 - No blurry or low-resolution images. Upscale everything.
 - No stock photos and no lorem ipsum.
@@ -76,7 +117,7 @@ When there is a real choice (photos, colour themes, crops), build a **visual pic
 **Motion:**
 - **No confetti, ever, anywhere** (not in intros, not on buttons).
 - Never trap the scroll. Every pinned or "one slide per scroll" section must let the user scroll past normally, with keyboard, trackpad and touch all working. A section you can't get out of is a critical bug.
-- For pitch decks and portfolio-style showcase sites: **no scroll animation at all**. Click navigation, instant jumps, motion lives in the background or on hover. Ask which kind of site it is if unclear.
+- For click-through pitch decks: **no scroll animation at all** (every other site still gets the luxury smooth scroll from Section 1b). Click navigation, instant jumps, motion lives in the background or on hover. Ask which kind of site it is if unclear.
 - Every animation respects `prefers-reduced-motion`.
 
 **Tone of a section:**
@@ -139,6 +180,7 @@ Open it in a real browser (use `playwright-cli`) and verify:
 - [ ] Fast on a throttled phone: first paint under about 1.5 seconds; no render-blocking third-party CSS (self-host fonts and icons).
 - [ ] Styled 404 page in the brand's look; canonical link; OG share image; favicon and app icons using the real logo.
 - [ ] Run `/web-interface-guidelines` (or `web-design-guidelines`) on the page and fix what it finds.
+- [ ] Section 1b is all there: personalised loader (skippable, once per visit), luxury smooth scroll that never traps, **at least 2 (ideally 4) interactive features** tested with mouse, touch and keyboard, product screens exactly one window tall (check `offsetHeight === innerHeight` at 1440×900 and 390×844), a testimonial section with real reviews (or clearly labelled samples on a concept site), and no gradient over any photo.
 - [ ] Optional bar-raiser: run the `awwwards` skill's audit and aim for 6.5 or higher.
 
 ## 10. Skills to use (all included in this kit)
@@ -163,7 +205,11 @@ Open it in a real browser (use `playwright-cli`) and verify:
 
 ---
 
+### When a skill disagrees with this file
+This file wins. For example, the `frontend-design` skill warns against highlighting one word in a headline and prefers a single motion moment. That's good general advice, but where this playbook asks for something (a personalised loader plus a signature interaction, a brand-coloured key word), follow the playbook.
+
 ### The short version (if you remember nothing else)
+0. Every site: a personalised logo loader, luxury smooth scroll, 2–4+ real interactive features, products in exact screen-sized sets, a testimonial section (real reviews only), and no gradients over photos.
 1. Research the real brand first; use their real logo, photos and words.
 2. Never change the client's colours, logo or look; refine inside it.
 3. One cinematic signature moment, built from the real logo or brand.
