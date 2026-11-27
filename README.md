@@ -1,6 +1,6 @@
 # Claude Skills Kit
 
-165 ready-to-use skills for Claude Code: websites and design, video, Instagram, marketing, sales and writing.
+170 ready-to-use skills for Claude Code: websites and design, video, Instagram, marketing, sales and writing.
 Install once and Claude picks the right skill on its own when a task matches, or you can call one by name with `/skill-name`.
 
 ## Install (about 1 minute)
@@ -35,10 +35,14 @@ The installer copies each skill into `~/.claude/skills/` and never overwrites a 
 
 ## What's inside
 
-### Websites & design (29)
+### Websites & design (33)
 
 | Skill | What it does |
 |---|---|
+| `web-design-guidelines` | Review UI code against Vercel's Web Interface Guidelines (accessibility, UX, best practices). |
+| `emil-design-eng` | Emil Kowalski's design-engineering rules for UI polish, interactions and animation details. |
+| `design-critique` | Structured design feedback on usability, hierarchy and consistency for screenshots or mockups. |
+| `landing-page-design` | Landing page layout, hero, social proof and CTA rules for conversion (image generation needs the paid inference.sh CLI). |
 | `algorithmic-art` | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. |
 | `awwwards` | Design and build websites to Awwwards jury standard (Site of the Day / Developer Award / Mobile Excellence). |
 | `banner-design` | Design banners for social media, ads, website heroes, creative assets, and print. |
@@ -231,10 +235,11 @@ The installer copies each skill into `~/.claude/skills/` and never overwrites a 
 | `internal-comms` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. |
 | `stop-slop` | Remove AI writing patterns from prose. |
 
-### Utilities (4)
+### Utilities (5)
 
 | Skill | What it does |
 |---|---|
+| `prompt-master` | Quietly restructures long, messy requests (role, context, task, constraints, format) before answering. |
 | `find-skill` | Finds and installs Claude Code Skills for your project. |
 | `find-skills` | Helps you discover and install agent skills from skills.sh when you ask "is there a skill for X" (by Vercel). |
 | `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. |
