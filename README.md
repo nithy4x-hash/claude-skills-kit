@@ -7,6 +7,14 @@ Install once and Claude picks the right skill on its own when a task matches, or
 
 Read **[WEBSITE-PLAYBOOK.md](WEBSITE-PLAYBOOK.md)**. It's how websites should be built: the process, the taste, what gets approved and what gets rejected, the quality checklist, and which of these skills to use when. Put it in your project folder and tell Claude: *"Read WEBSITE-PLAYBOOK.md and follow it for every website we build."*
 
+## AI video guides (Google Flow + motion graphics)
+
+Two ways to make the same kind of finished video, both ending with Instagram-ready edits, captions and cut-downs:
+- **[Method A: Prompt method](video-methods/METHOD-A-PROMPT-VIDEO.md)**: realistic video. People and places are written as text prompts, stills are generated in Flow, then each one is animated with the "Chamundi" locked-source prompt format.
+- **[Method B: Storyboard method](video-methods/METHOD-B-STORYBOARD-VIDEO.md)**: ChatGPT draws the whole scenario as a storyboard in the final look (realistic, 3D, 2D motion graphics, logo reveal), then Flow generates the video following the panels.
+
+Each guide also maps every Instagram and video-editing skill in this kit (ig-*, HyperFrames, Remotion, CapCut, colour grade and more) to the step where it's used. Put a guide in your project folder and tell Claude: *"Read METHOD-A-PROMPT-VIDEO.md and make this video with it."*
+
 ## Install (about 1 minute)
 
 You need [Claude Code](https://claude.com/claude-code) installed (Pro plan or higher) and [Git](https://git-scm.com/downloads).
