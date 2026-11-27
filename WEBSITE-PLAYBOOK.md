@@ -45,9 +45,13 @@ Before designing anything, do this research and write the findings down in a sho
      - Is it truly in the product's aesthetic?
      - Would a premium client recognise it as theirs?
      - Is anything in it a template default?
-   - If unsure, build 2–3 quick visual directions and let the user pick (Step 5).
-7. **Detailed research write-up:** summarise findings, the chosen direction and why, and the list of sections and interactions, in one page.
-8. **Then get started** on Step 1 onwards.
+7. **Detailed research write-up:** summarise the findings, the 3 candidate directions and why each fits, and the list of sections and interactions, in one page.
+8. **Options page: always, before building.** Publish an artifact (a shareable page) showing **at least 3 directions** to choose from.
+   - **Each direction** gets a name, a one-line feel, its colour swatches, its fonts, and **real mock-ups** of the opening screen and one product or content screen, on desktop and phone.
+   - **Use the brand's real logo and photos** in the mock-ups, so the choice is about the look, not placeholder content.
+   - **Let the user mix and match**, for example "1, with the product screen from 2".
+   - **Wait for the user to pick.** Don't build the full site until a direction is chosen.
+9. **Then finalise and build** the chosen direction, from Step 1 onwards. Note the pick in the research brief.
 
 Skipping this research is how a site ends up looking like a template. In a test, a jewellery site built without it was rejected ("I don't like it at all": wrong colours, template layout, not luxurious) and had to be rebuilt after a direction picker.
 
@@ -71,7 +75,7 @@ Before code, state the page kind, the audience, the vibe and the one signature i
 See Section 9. Never hand over something you haven't opened at phone and desktop size.
 
 ### Step 5: Give choices the right way
-When there is a real choice (photos, colour themes, crops), build a **visual picker page** with numbered options and let them pick. Don't describe options in text.
+Every website starts with a direction picker (Step 0, point 8). After that, whenever there's another real choice (photos, colour themes, crops, loaders), build a **visual picker page** (an artifact) with numbered options and let the user pick. Don't describe options in text.
 
 ### If there is no existing brand (a new or concept brand)
 Define it before designing: name, a wordmark logo, 4–6 named colours drawn from the product's own world, and two fonts. Use a mood board (e.g. Pinterest) **only as reference**; never put other people's photos on the site. Generate original photos instead (Flow, see the video guides), and say clearly in the footer that the brand is a concept.
@@ -242,7 +246,7 @@ Open it in a real browser (use `playwright-cli`) and verify:
 This file wins. For example, the `frontend-design` skill warns against highlighting one word in a headline and prefers a single motion moment. That's good general advice, but where this playbook asks for something (a personalised loader plus a signature interaction, a brand-coloured key word), follow the playbook.
 
 ### The short version (if you remember nothing else)
-00. Before any build: competitor check, award-winning sites, other references, how to build it, the product's real aesthetic, an aesthetic check, a written research brief. Then start.
+00. Before any build: competitor check, award-winning sites, other references, how to build it, the product's real aesthetic, an aesthetic check, a written research brief, then **an options page with 3+ directions**. The user picks, then build.
 0. Every site: a personalised logo loader, luxury smooth scroll, 2–4+ real interactive features, products in exact screen-sized sets, a testimonial section (real reviews only), and no gradients over photos.
 1. Research the real brand first; use their real logo, photos and words.
 2. Never change the client's colours, logo or look; refine inside it.
