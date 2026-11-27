@@ -18,6 +18,39 @@ You are building websites for a person with a strong, specific eye. They judge a
 
 Follow these steps in order. Don't skip research to get to code.
 
+### Step 0: Deep research before ANY website (mandatory, for every brand)
+Before designing anything, do this research and write the findings down in a short research brief. Show the brief before building.
+1. **Competitor check:**
+   - Find 5–8 direct competitors (same product, same market) and 3–5 aspirational ones (the brands this client wants to be next to).
+   - For each, note:
+     - their colours, type and photography;
+     - how the hero opens;
+     - how products are shown;
+     - their prices and their call to action;
+     - one thing they do well and one thing they do badly.
+2. **Award-winning sites:**
+   - Study recent winners on Awwwards (Site of the Day / Honorable Mention), CSS Design Awards and FWA in this category and in neighbouring ones.
+   - Note the one signature interaction each is remembered for, and how they handle loaders, scroll, product screens and mobile. The `awwwards` skill has a method for dissecting an award-winning site.
+3. **Other websites and references:** browse beyond the category: Pinterest boards, Behance and Dribbble case studies, luxury and fashion sites, editorial magazines. Collect references for layout, type, colour and motion. Use them as reference only, never copy them.
+4. **How it can be built:**
+   - Decide what's technically possible and fast. For example, which interactions fit, what imagery exists or must be generated, and what needs real data (prices, reviews, booking).
+   - Plan the signature moment and the 2–4+ interactive features from Section 1b.
+5. **Aesthetic analysis:**
+   - Decide what the product's aesthetic really is: fun, playful, luxurious, calm, bold, technical, earthy, romantic, and so on. Base it on the product itself, the audience, the price point and the brand's existing look.
+   - Write why, and list what that aesthetic means for colour, type, spacing, motion and photography.
+   - A kids' party brand and a gold jewellery brand must not end up looking alike.
+6. **Detailed aesthetic check:**
+   - Test the planned direction against the competitors and references. Ask:
+     - Does it stand out?
+     - Is it truly in the product's aesthetic?
+     - Would a premium client recognise it as theirs?
+     - Is anything in it a template default?
+   - If unsure, build 2–3 quick visual directions and let the user pick (Step 5).
+7. **Detailed research write-up:** summarise findings, the chosen direction and why, and the list of sections and interactions, in one page.
+8. **Then get started** on Step 1 onwards.
+
+Skipping this research is how a site ends up looking like a template. In a test, a jewellery site built without it was rejected ("I don't like it at all": wrong colours, template layout, not luxurious) and had to be rebuilt after a direction picker.
+
 ### Step 1: Research the brand before designing anything
 - Study the client's real presence first: Instagram (bio, captions, highlights, reels, photos), their existing website if any, Google reviews, their Typeform or booking pages.
 - Collect **real facts only**: their services, venues, dates, client names they already publish, prices they state, their own phrases. Write the site **in their words**. Captions and reviews are gold.
@@ -209,6 +242,7 @@ Open it in a real browser (use `playwright-cli`) and verify:
 This file wins. For example, the `frontend-design` skill warns against highlighting one word in a headline and prefers a single motion moment. That's good general advice, but where this playbook asks for something (a personalised loader plus a signature interaction, a brand-coloured key word), follow the playbook.
 
 ### The short version (if you remember nothing else)
+00. Before any build: competitor check, award-winning sites, other references, how to build it, the product's real aesthetic, an aesthetic check, a written research brief. Then start.
 0. Every site: a personalised logo loader, luxury smooth scroll, 2–4+ real interactive features, products in exact screen-sized sets, a testimonial section (real reviews only), and no gradients over photos.
 1. Research the real brand first; use their real logo, photos and words.
 2. Never change the client's colours, logo or look; refine inside it.
