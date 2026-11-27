@@ -94,7 +94,6 @@ These apply to every site you build, on top of everything else in this file.
    - The only exception is click-through pitch decks, which get no scroll effects at all.
 
 3. **Interactive features: at least 2, aim for 4.** Every site needs real interactions that a visitor uses, not just animations they watch. Pick ones that fit the business, for example:
-   - a hero that reacts to the cursor or finger (e.g. light that follows you across gold jewellery)
    - a working bag or wishlist drawer
    - a builder that writes a pre-filled WhatsApp message
    - a tabbed "how to wear it" or "choose your plan" switcher
@@ -104,6 +103,8 @@ These apply to every site you build, on top of everything else in this file.
    - a goal finder or quiz
 
    Each must work with mouse, touch and keyboard.
+
+   **Not wanted:** cursor-following light or spotlight effects on the hero photo (tried on a jewellery site and rejected). Keep hero photos still and clean; put the interactivity in things people actually use.
 
 4. **Products are shown in screen-sized sets.** On any site that displays products, **at least half of them** (ideally all) appear in **screens that are exactly the height of the window** (100svh).
    - Each screen holds a whole number of complete product cards, and no row is cut off and continued on the next screen. You choose how many per screen: typically **3 per screen on desktop, 2 on phone**.
