@@ -18,5 +18,6 @@ Every skill here comes from the source below. Licences are kept inside each skil
 | Utilities | https://github.com/fockus/claude-skill-find-skill | no licence file | 1 |
 | awwwards | https://github.com/SandroHub013/awwwards-skill | see LICENSE | 1 |
 | color-grade | shared privately via Google Drive (AIvolve newsletter) | no licence; private sharing only | 1 |
+| find-skills | https://github.com/vercel-labs/skills | MIT | 1 |
 
 Other skills from the original owner's earlier setup (taste/design skills, HyperFrames, Remotion, CapCut, Figma, Playwright and others; sources not recorded): `brandkit`, `capcut-edit`, `design-taste-frontend`, `design-taste-frontend-v1`, `figma`, `full-output-enforcement`, `gpt-taste`, `high-end-visual-design`, `hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `image-to-code`, `imagegen-frontend-mobile`, `imagegen-frontend-web`, `industrial-brutalist-ui`, `media-use`, `minimalist-ui`, `playwright-cli`, `redesign-existing-projects`, `remotion-best-practices`, `remotion-captions`, `remotion-create`, `remotion-docs`, `remotion-interactivity`, `remotion-maps`, `remotion-markup`, `remotion-multimedia`, `remotion-render`, `remotion-saas`, `remotion-studio`, `remotion-to-hyperframes`, `remotion-upgrade`, `slideshow`, `stitch-design-taste`.

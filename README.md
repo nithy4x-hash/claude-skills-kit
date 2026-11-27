@@ -1,6 +1,6 @@
 # Claude Skills Kit
 
-164 ready-to-use skills for Claude Code: websites and design, video, Instagram, marketing, sales and writing.
+165 ready-to-use skills for Claude Code: websites and design, video, Instagram, marketing, sales and writing.
 Install once and Claude picks the right skill on its own when a task matches, or you can call one by name with `/skill-name`.
 
 ## Install (about 1 minute)
@@ -231,11 +231,12 @@ The installer copies each skill into `~/.claude/skills/` and never overwrites a 
 | `internal-comms` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. |
 | `stop-slop` | Remove AI writing patterns from prose. |
 
-### Utilities (3)
+### Utilities (4)
 
 | Skill | What it does |
 |---|---|
 | `find-skill` | Finds and installs Claude Code Skills for your project. |
+| `find-skills` | Helps you discover and install agent skills from skills.sh when you ask "is there a skill for X" (by Vercel). |
 | `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. |
 | `owasp-security` | Reviews code for security vulnerabilities and guides secure implementation using OWASP Top 10:2025, ASVS 5.0, the OWASP Top 10 for LLM Applications (2… |
 
