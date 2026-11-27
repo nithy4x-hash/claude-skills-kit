@@ -254,4 +254,4 @@ Plus one command: `/web-interface-guidelines` (checks a web page against Vercel'
 ## Credits
 
 These skills were written by other people. See [CREDITS.md](CREDITS.md) for every source and licence.
-This repository is private and shared for personal use; please don't republish it.
+Each skill keeps its author's licence where one was provided. If you're an author and want your skill removed or credited differently, open an issue.
