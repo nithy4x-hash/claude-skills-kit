@@ -3,6 +3,10 @@
 170 ready-to-use skills for Claude Code: websites and design, video, Instagram, marketing, sales and writing.
 Install once and Claude picks the right skill on its own when a task matches, or you can call one by name with `/skill-name`.
 
+## Start here: the Website Playbook
+
+Read **[WEBSITE-PLAYBOOK.md](WEBSITE-PLAYBOOK.md)**. It's how websites should be built: the process, the taste, what gets approved and what gets rejected, the quality checklist, and which of these skills to use when. Put it in your project folder and tell Claude: *"Read WEBSITE-PLAYBOOK.md and follow it for every website we build."*
+
 ## Install (about 1 minute)
 
 You need [Claude Code](https://claude.com/claude-code) installed (Pro plan or higher) and [Git](https://git-scm.com/downloads).
